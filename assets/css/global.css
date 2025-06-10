@@ -1,5 +1,5 @@
 .bg-hero {
-    background-image: url('../img/principal_2.jpg');
+    background-image: url('assets/img/principal_2.jpg');
     background-size: cover;
     background-position: center;
   }

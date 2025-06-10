@@ -1973,6 +1973,14 @@ video {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\/assets\/img\/principal_2\.jpg\'\)\] {
+  background-image: url('/assets/img/principal_2.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/principal_2\.jpg\'\)\] {
+  background-image: url('./assets/img/principal_2.jpg');
+}
+
 .from-\[\#b89b7b\] {
   --tw-gradient-from: #b89b7b var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(184 155 123 / 0) var(--tw-gradient-to-position);

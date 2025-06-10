@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Compatto</title>
+    <!-- Aquí va tu link de Tailwind -->
+    <link rel="stylesheet" href="../assets/css/tailwind-output.css" />
+  </head>
+  <body>
+    <div
+      class="relative mx-auto w-[90%] max-w-6xl h-[600px] bg-[url(/assets/img/principal_2.jpg)] bg-cover bg-center rounded-[40px] shadow-lg flex items-center md:h-[320px] md:rounded-[30px] md:w-[98%] xs:h-[220px] xs:rounded-xl xs:w-full xs:mt-4 xs:shadow-none xs:flex-col xs:justify-center xs:items-center"
+    >
+      <!-- Header flotante dentro del hero -->
+      <header
+        class="absolute top-2 left-1/2 -translate-x-1/2 w-[95%] max-w-6xl rounded-[30px] shadow-lg bg-white flex items-center justify-between px-8 py-3 z-30 md:px-4 md:py-2 md:gap-2 md:flex-wrap sm:flex-col sm:items-center sm:gap-2"
+      >
+        <!-- Logo -->
+        <div
+          class="bg-[#F7F5F2] rounded-[20px] p-2 flex items-center justify-center shadow-sm md:p-1"
+        >
+          <img
+            src="../assets/img/logo_3.png"
+            alt="Compatto Logo"
+            class="w-[70px] h-[70px] object-contain md:w-[48px] md:h-[48px]"
+          />
+        </div>
+        <!-- Nav menu -->
+        <nav
+          class="flex gap-8 text-gray-700 text-base font-medium md:gap-4 md:text-sm sm:gap-2 sm:text-xs sm:w-full sm:justify-center"
+        >
+          <a href="#" class="hover:text-black">Who we are</a>
+          <a href="#" class="hover:text-black">The challenges</a>
+          <a href="#" class="hover:text-black">Our process</a>
+          <a href="#" class="hover:text-black">Why choose us</a>
+        </nav>
+        <!-- Contact us button -->
+        <a
+          href="#"
+          class="bg-[#E6D3C5] border border-[#E6D3C5] text-gray-800 text-base px-6 py-2 rounded-full hover:bg-[#d6c2b2] transition font-semibold shadow md:text-sm md:px-4 md:py-1 sm:text-xs sm:px-2 sm:py-1 sm:w-full sm:mt-2 sm:rounded-md sm:shadow-none"
+        >
+          Contact us
+        </a>
+      </header>
+      <!-- Texto principal a la izquierda -->
+      <div
+        class="absolute left-10 bottom-10 -translate-y-1/2 max-w-[350px] bg-black/40 rounded-xl p-4 md:left-4 md:bottom-4"
+      >
+        <p
+          class="text-3xl md:text-2xl font-bold leading-tight text-white xs:text-lg"
+        >
+          Bringing <span class="text-[#E6D3C5]">Simplicity</span><br />
+          In The Furnishing Market
+        </p>
+      </div>
+      <!-- Texto secundario y botón a la derecha -->
+      <div
+        class="absolute right-10 bottom-5 -translate-y-1/2 bg-black/40 rounded-2xl p-6 text-white max-w-[350px] text-right shadow md:right-4 md:max-w-[220px] md:bottom-2 md:p-3 md:text-sm xs:static xs:translate-y-0 xs:right-0 xs:top-0 xs:bg-black/60 xs:rounded-lg xs:p-2 xs:max-w-full xs:text-center xs:w-full xs:mt-2 xs:shadow-none"
+      >
+        <p class="mb-4 text-base md:text-sm xs:text-xs">
+          Compatto simplifies the complex process of furnishing all-inclusive,
+          boutique & high-end hotels, and luxury residences in Greece & Cyprus.
+        </p>
+        <button
+          class="bg-[#E6D3C5] text-gray-900 font-semibold px-6 py-2 rounded-full hover:bg-[#d6c2b2] transition md:px-4 md:py-1 md:text-sm xs:px-2 xs:py-1 xs:text-xs xs:rounded-md"
+        >
+          Start your Furnishing Journey
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-row gap-8 max-w-6xl mx-auto mt-10 w-full md:flex-col md:gap-6"
+    >
+      <!-- Tarjeta de estadísticas -->
+      <div
+        class="flex-1 rounded-3xl shadow bg-gradient-to-br from-[#b89b7b] via-[#cbb89e] to-[#8c6e4a] text-white p-8 flex flex-col items-center justify-center text-center md:p-4 md:gap-4 md:text-base md:flex-col sm:p-2 sm:gap-2"
+      >
+        <div class="mb-6 md:mb-4">
+          <svg
+            width="60"
+            height="60"
+            viewBox="0 0 60 60"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="mx-auto mb-2"
+          >
+            <path
+              d="M10 30C20 10 40 50 50 30"
+              stroke="white"
+              stroke-width="4"
+              stroke-linecap="round"
+            />
+            <path
+              d="M15 40C25 20 35 40 45 20"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <div
+            class="uppercase text-xs tracking-widest text-white font-semibold mb-2"
+          >
+            Our Company in Numbers
+          </div>
+        </div>
+        <div
+          class="flex flex-row gap-8 justify-center items-center w-full md:flex-col md:gap-4"
+        >
+          <div>
+            <div class="text-4xl font-bold md:text-2xl sm:text-xl">150+</div>
+            <div class="text-base font-medium">Furniture Suppliers</div>
+          </div>
+          <!-- Separador solo en desktop -->
+          <div class="border-l border-white h-10 mx-4 md:hidden"></div>
+          <div>
+            <div class="text-2xl font-bold md:text-lg sm:text-base">15+</div>
+            <div class="text-base font-medium">
+              Years of Industry Experience
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta Who We Are -->
+      <div
+        class="flex-1 bg-[#F7F5F2] rounded-3xl shadow p-8 flex flex-row items-center gap-8 min-w-0 overflow-hidden md:flex-col md:gap-6"
+      >
+        <!-- Texto -->
+        <div
+          class="flex-1 text-left pr-4 flex flex-col justify-center min-w-0 max-w-md md:pr-0 md:text-center md:max-w-full"
+        >
+          <h2 class="text-2xl font-bold text-[#B89B7B] mb-2">Who We Are</h2>
+          <p class="text-gray-700 text-base">
+            At Compatto, we understand the challenges of creating exceptional
+            spaces that blend elegance, quality, and functionality.<br /><br />
+            As Greece's premier furniture solutions provider, we've made it our
+            mission to simplify the furnishing process, ensuring that every
+            project is executed flawlessly from initial consultation to final
+            installation.
+          </p>
+        </div>
+        <!-- Imagen decorativa con borde redondeado solo a la izquierda -->
+        <div
+          class="w-44 h-44 overflow-hidden rounded-l-full border-4 border-[#E6D3C5] flex-shrink-0 flex items-center justify-center bg-white md:w-32 md:h-32 md:mx-auto md:mt-6"
+        >
+          <img
+            src="../assets/img/who_we_are.jpg"
+            alt="Who We Are"
+            class="object-cover w-full h-full"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
